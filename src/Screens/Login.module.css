@@ -1,0 +1,89 @@
+.mainContainer{
+    background-color: #ebeceb;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+.formContainer{
+    border: 2px solid gray;
+    padding: 2rem;
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    background: linear-gradient(#ebecf0 0%, #BEBEBE 100%);
+}
+.userIcon{
+    text-align: center;
+    border: 1px solid #464646;
+    border-radius: 50%;
+    width: 35px;
+    padding: 10px;
+    margin: auto;
+}
+.loader{
+    justify-content: center;
+    display: flex;
+}
+.heading{
+    color: #464646;
+    font-weight: 500;
+}
+.inputAreaLevel{
+    color: #616161;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+.error_message {
+    color: rgb(250, 0, 0);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+.inputArea{
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 10px 0 25px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    /* color: #fff; */
+    background-color: #ebecf0;
+}
+.inputArea::placeholder{
+    font-size: 14px;
+    color: gray;
+}
+.inputArea:focus{
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    color: gray;
+    border: 1px solid #187498;
+}
+
+.LoginButton{
+    padding: 10px 15px;
+    background-color: #276955;
+    width: 70px;
+    font-size: 16px;
+    text-align: center;
+    margin: 14px 5px;
+    color: #fff;
+    border-radius: 4px;
+    border: 0px;
+}
+.LoginButtonContainer{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 1024px) {
+    .formContainer{
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+}
